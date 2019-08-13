@@ -31,7 +31,7 @@
 
 		<div class="btndiv" id="구매정보" onclick="buyinfo();">구매정보</div>
 		<div class="btndiv" id="판매정보" onclick="sellinfo();">판매정보</div>
-		<div class="btndiv" id="배송정보" onclick="delvinfo();">배송정보</div>
+		<div class="btndiv" id="배송정보" onclick="delivinfo();">배송정보</div>
 		<div class="btndiv" id="회원정보수정" onclick="myinfo();">회원정보 수정</div>
 
 	</div>
@@ -41,15 +41,15 @@
 		}
 		
 		function sellinfo(){
-			
+	
 		}
 		
-		function delvinfo() {
-			
+		function delivinfo() {
+	
 		}
 		
 		function myinfo() {
-			
+	
 		}
 	
 	</script>
