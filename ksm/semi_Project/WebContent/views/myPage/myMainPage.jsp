@@ -37,19 +37,20 @@
 	</div>
 	<script>
 		function buyinfo() {
-				
+				location.href="<%= request.getContextPath() %>/buyinfo.me"
 		}
 		
 		function sellinfo(){
+				location.href="<%= request.getContextPath() %>/sellinfo.me"
 	
 		}
 		
 		function delivinfo() {
-	
+				location.href="<%= request.getContextPath() %>/delivinfo.me"
 		}
 		
 		function myinfo() {
-	
+				location.href="<%= request.getContextPath() %>/MyInfo.me"
 		}
 	
 	</script>
